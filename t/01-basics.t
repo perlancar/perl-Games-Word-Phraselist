@@ -13,8 +13,8 @@ is($pl->phrases, 2);
 
 ok($pl->can("random_phrase"));
 
-ok( $pl->is_phrases("foo baz"));
-ok(!$pl->is_phrases("foo qux"));
+ok( $pl->is_phrase("foo baz"));
+ok(!$pl->is_phrase("foo qux"));
 
 ok($pl->can("each_phrase"));
 

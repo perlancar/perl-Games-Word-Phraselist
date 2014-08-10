@@ -8,7 +8,7 @@ use parent qw(Games::Word::Wordlist);
 
 sub phrases       { my $self = shift; $self->words(@_) }
 sub random_phrase { my $self = shift; $self->random_word(@_) }
-sub is_phrases    { my $self = shift; $self->is_word(@_) }
+sub is_phrase     { my $self = shift; $self->is_word(@_) }
 sub each_phrase   { my $self = shift; $self->each_word(@_) }
 sub phrases_like  { my $self = shift; $self->words_like(@_) }
 
