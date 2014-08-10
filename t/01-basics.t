@@ -7,5 +7,10 @@ use warnings;
 use Games::Word::Phraselist;
 use Test::More 0.98;
 
-ok 1; # TODO
+my $pl = Games::Word::Phraselist->new(["foo bar", "foo baz"]);
+is($pl->phrases, 2);
+ok($pl->can("random_phrase"));
+ok($pl->can("each_phrase"));
+is_deeply([$pl->phrases_like(qr/z/)], ["foo baz"]);
+
 done_testing;
