@@ -1,5 +1,10 @@
 Revision history for Games-Word-PhraseList
 
+0.04    2014-08-10 (SHARYANTO)
+
+        - Double derp, wrong dist name.
+
+
 0.03    2014-08-10 (SHARYANTO)
 
         - Derp, forgot to add one more important method: is_phrase.
