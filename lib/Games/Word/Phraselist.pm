@@ -3,6 +3,9 @@ package Games::Word::Phraselist;
 # DATE
 # VERSION
 
+# currently implemented as a "quick hack", subclassed from
+# Games::Word::Wordlist, so all Wordlist methods are also there.
+
 use 5.010001;
 use parent qw(Games::Word::Wordlist);
 
