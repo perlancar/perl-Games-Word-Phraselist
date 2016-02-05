@@ -1,5 +1,12 @@
 Revision history for Games-Word-PhraseList
 
+0.05    2016-02-05 (PERLANCAR)
+
+        - No functional changes.
+
+        - Re-upload (accidentally removed from CPAN).
+
+
 0.04    2014-08-10 (SHARYANTO)
 
         - Double derp, wrong dist name.
